@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+.wrap {
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* 배경 */
+.bg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* 버튼 */
+.btn {
+  position: absolute;
+  
+  /* 🔥 여기 숫자 바꿔야함 */
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn img {
+  width: 200px; /* 버튼 크기 */
+}
+
+@media (max-width: 768px) {
+  .btn img {
+    width: 120px; /* 버튼 크기 줄이기 */
+  }
+}
