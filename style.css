@@ -35,7 +35,7 @@ html, body {
 
 .btn img {
   width: 20vw;
-  max-width: 320px;
+  max-width: 290px;
 }
 
 @media (max-width: 768px) {
