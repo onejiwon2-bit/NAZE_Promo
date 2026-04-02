@@ -69,7 +69,7 @@ html, body {
   z-index: 10;
 }
 
-/* 📱 모바일 대응 */
+/* 모바일 대응 */
 @media (max-width: 768px) {
 
   .btn img {
