@@ -21,50 +21,60 @@ html, body {
   cursor: url('images/cursor.png') 0 0, auto;
 }
 
-/* 버튼 공통 */
+/* 버튼 공통 (위치만 담당) */
 .btn {
   position: absolute;
   transform: translate(-50%, -50%);
   cursor: url('images/cursor.png') 0 0, pointer;
 }
 
+/* 이미지 (회전 + 애니메이션 담당) */
 .btn img {
   width: 24vw;
   max-width: 360px;
 
-  transition: all 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+  transition: transform 0.2s ease-out;
 }
 
-/* 위치 (PC) */
+/* 기본 각도 */
 .btn1 {
   top: 30%;
   left: 60%;
-  transform: translate(-50%, -50%) rotate(-2deg);
+}
+.btn1 img {
+  transform: rotate(-2deg);
 }
 
 .btn2 {
   top: 55%;
   left: 40%;
-  transform: translate(-50%, -50%) rotate(-6deg);
+}
+.btn2 img {
+  transform: rotate(-6deg);
 }
 
 .btn3 {
   top: 70%;
   left: 65%;
-  transform: translate(-50%, -50%) rotate(5deg);
+}
+.btn3 img {
+  transform: rotate(5deg);
 }
 
-/* hover 효과 */
-.btn:hover img {
-  transform: translateY(-8px) scale(1.03);
-  box-shadow: 0 12px 24px rgba(0,0,0,0.25);
+/* 🔥 핵심: 각도만 바뀌는 hover */
+.btn1:hover img {
+  transform: rotate(2deg);
 }
 
-/* 클릭 */
-.btn:active img {
-  transform: translateY(-2px);
+.btn2:hover img {
+  transform: rotate(-2deg);
 }
 
+.btn3:hover img {
+  transform: rotate(8deg);
+}
+
+/* hover 시 위로 */
 .btn:hover {
   z-index: 10;
 }
