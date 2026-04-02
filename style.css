@@ -95,7 +95,7 @@ html, body {
   .btn3 { top: 75%; left: 55%; }
   
   .footer-logo {
-    width: 18vw;
+    width: 8vw;
     max-width: 25px;
     min-width: 30px;
   }
@@ -111,7 +111,7 @@ html, body {
   max-width: 1200px;
 
   font-family: sans-serif;
-  font-size: clamp(8px, 0.8vw, 12px);
+  font-size: clamp(8px, 0.8vw, 8px);
   color: #000;
 
   text-align: center;
@@ -125,7 +125,7 @@ html, body {
   margin: 0 auto 6px;
 
   width: 10vw;
-  max-width: 65px;
+  max-width: 25px;
   min-width: 32px;
   height: auto;
 }
