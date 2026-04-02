@@ -106,3 +106,10 @@ html, body {
 
   pointer-events: none;
 }
+
+.footer-logo {
+  display: block;
+  margin: 0 auto 6px;
+
+  width: clamp(40px, 6vw, 80px);
+}
