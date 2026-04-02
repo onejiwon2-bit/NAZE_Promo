@@ -111,5 +111,8 @@ html, body {
   display: block;
   margin: 0 auto 6px;
 
-  width: clamp(20px, 4vw, 40px);
+  width: 12vw;
+  max-width: 80px;
+  min-width: 40px;
+  height: auto;
 }
