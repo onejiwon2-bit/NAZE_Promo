@@ -28,7 +28,7 @@ html, body {
 }
 
 .btn img {
-  width: clamp(240px, 26vw, 420px);
+  width: clamp(220px, 24vw, 380px);
 
   transition: transform 0.2s ease-out;
 }
@@ -43,7 +43,7 @@ html, body {
 
 .btn2 {
   top: 55%;
-  left: 40%;
+  left: 35%;
 }
 .btn2 img {
   transform: rotate(-6deg);
@@ -81,7 +81,7 @@ html, body {
   }
 
   .btn1 { top: 35%; left: 55%; }
-  .btn2 { top: 55%; left: 50%; }
+  .btn2 { top: 55%; left: 40%; }
   .btn3 { top: 75%; left: 55%; }
 
 }
