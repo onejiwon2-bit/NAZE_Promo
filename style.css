@@ -29,8 +29,8 @@ html, body {
 }
 
 .btn img {
-  width: 18vw;
-  max-width: 260px;
+  width: 24vw;
+  max-width: 360px;
 
   transition: all 0.25s cubic-bezier(0.22, 1, 0.36, 1);
 }
