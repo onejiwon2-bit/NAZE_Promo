@@ -5,6 +5,7 @@ html, body {
   overflow: hidden;
 }
 
+/* 배경 */
 .wrap {
   position: fixed;
   top: 0;
@@ -16,35 +17,74 @@ html, body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  
+
   cursor: url('images/cursor.png') 0 0, auto;
 }
 
-.bg {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
+/* 버튼 공통 */
 .btn {
   position: absolute;
-  padding: 20px 40px;
-  
-  top: 55%;
-  left: 50%;
   transform: translate(-50%, -50%);
-  
   cursor: url('images/cursor.png') 0 0, pointer;
 }
 
 .btn img {
-  width: 20vw;
-  max-width: 290px;
+  width: 18vw;
+  max-width: 260px;
+
+  transition: all 0.25s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
+/* 위치 (PC) */
+.btn1 {
+  top: 45%;
+  left: 30%;
+  transform: translate(-50%, -50%) rotate(-6deg);
+}
+
+.btn2 {
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(2deg);
+}
+
+.btn3 {
+  top: 65%;
+  left: 70%;
+  transform: translate(-50%, -50%) rotate(6deg);
+}
+
+/* hover 효과 */
+.btn:hover img {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.25);
+}
+
+/* 클릭 */
+.btn:active img {
+  transform: translateY(-2px);
+}
+
+/* 📱 모바일 대응 */
 @media (max-width: 768px) {
-  .btn img {
-    width: 180px;
-  }
-}
 
+  .btn img {
+    width: 150px;
+  }
+
+  .btn1 {
+    top: 42%;
+    left: 50%;
+  }
+
+  .btn2 {
+    top: 58%;
+    left: 50%;
+  }
+
+  .btn3 {
+    top: 74%;
+    left: 50%;
+  }
+
+}
