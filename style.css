@@ -205,18 +205,18 @@ html, body {
   /* 모바일 배지 위치 */
 
   .btn1 .update-badge {
-    top: 2px;
-    right: -2px;
+    top: -6px;
+    right: 0px;
   }
 
   .btn2 .update-badge {
-    top: 1px;
-    right: -8px;
+    top: -5px;
+    right: -6px;
   }
 
   .btn3 .update-badge {
-    top: 2px;
-    right: -6px;
+    top: -6px;
+    right: -5px;
   }
 
   .update-badge {
