@@ -210,12 +210,12 @@ html, body {
   }
 
   .btn2 .update-badge {
-    top: -2px;
+    top: 1px;
     right: -6px;
   }
 
   .btn3 .update-badge {
-    top: -3px;
+    top: -1px;
     right: -5px;
   }
 
