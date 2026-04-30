@@ -118,18 +118,18 @@ html, body {
 /* 버튼별 위치 미세조정 (종이 위에 얹히는 느낌) */
 
 .btn1 .update-badge {
-  top: 2px;
-  right: -4px;
+  top: -8px;
+  right: -12px;
 }
 
 .btn2 .update-badge {
-  top: 3px;
+  top: 2px;
   right: -12px;
   animation-delay: 0.55s;
 }
 
 .btn3 .update-badge {
-  top: 4px;
+  top: 3px;
   right: -10px;
   animation-delay: 0.7s;
 }
