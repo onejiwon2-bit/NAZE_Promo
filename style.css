@@ -91,8 +91,6 @@ html, body {
 
 .update-badge {
   position: absolute;
-  top: -2px;
-  right: 4px;
 
   padding: 4px 10px;
   border-radius: 999px;
@@ -118,7 +116,24 @@ html, body {
   z-index: 20;
 }
 
-/* 순차 등장 효과 */
+/* 버튼별 위치 통일 */
+
+.btn1 .update-badge {
+  top: -14px;
+  right: -6px;
+}
+
+.btn2 .update-badge {
+  top: -14px;
+  right: -6px;
+}
+
+.btn3 .update-badge {
+  top: -14px;
+  right: -6px;
+}
+
+/* 순차 등장 효과 유지 */
 
 .btn2 .update-badge {
   animation-delay: 0.55s;
@@ -199,8 +214,8 @@ html, body {
   /* 모바일 Updated 위치 보정 */
 
   .update-badge {
-    top: -1px;
-    right: 3px;
+    top: -10px;
+    right: -4px;
     padding: 3px 8px;
     font-size: 10px;
   }
